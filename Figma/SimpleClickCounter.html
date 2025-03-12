@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Simple Click Counter</h1>
+     <p>Increase button to increment the count</p>
+     <p id="funct"> we have one number:5</p>
+     <p id="decrease"></p>
+     <button type="button"onclick='increase()'>Click to Increase</button>
+     <button type="button"onclick='increase()'>Click to decrease</button>
+     <script>
+         function increase(){
+             document.getElementById('funct').innerHTML= 6
+         }
+
+
+         function decrease(){
+             document.getElementById('decrease').innerHTML= 4
+         }
+     
+     </script>
+   
+</body>
+</html>
